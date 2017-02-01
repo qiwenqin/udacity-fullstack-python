@@ -1,5 +1,6 @@
 import website
 import media
+# the instance of Movie
 the_shawshank_redemption = media.Movie("The Shawshank Redemption",
                                        "1994",
                                        "9.3",
@@ -39,6 +40,6 @@ sherlock = media.TvShow("Sherlock",
                         "A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London.",
                         "https://images-na.ssl-images-amazon.com/images/M/MV5BMWY3NTljMjEtYzRiMi00NWM2LTkzNjItZTVmZjE0MTdjMjJhL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNTQ4NTc5OTU@._V1_.jpg",
                         "https://www.youtube.com/watch?v=qlcWFoNqZHc")
-
+# initialize the page
 movies = [the_shawshank_redemption,the_godfather,scindler_list,forrest_gump,breaking_bad,sherlock]
 website.open_movies_page(movies)
